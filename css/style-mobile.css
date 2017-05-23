@@ -201,9 +201,15 @@
 			letter-spacing: 1px;
 			text-decoration: none;
 			text-transform: uppercase;
-			font-size: 2em;
+			font-size: 3em;
 			font-weight: 900;
-			color: #323338;
+			color: #3a5878;
+			text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+		}
 		}
 
 		#logo span
@@ -214,6 +220,7 @@
 			text-transform: uppercase;
 			font-size: 1em;
 			color: #8e8588;
+			
 		}			
 	
 	#nav
