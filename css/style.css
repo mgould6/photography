@@ -9,7 +9,26 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+.res-frame {
+    width: 100%;
+}
 
+.gallery-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-container iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
 	body
 	{
 		background: #fff;
